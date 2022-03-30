@@ -1,0 +1,7 @@
+drupal_listing.welcome:
+  path: '/welcome/drupal-listing'
+  defaults:
+    _controller: '\Drupal\drupal_listing\Controller\WelcomeController::welcome'
+    _title: 'Drupal Listing'
+  requirements: 
+    _permission: 'access content'
